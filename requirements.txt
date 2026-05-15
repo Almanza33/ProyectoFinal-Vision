@@ -1,0 +1,29 @@
+# Core ML
+# Install torch separately first with the correct CUDA index URL:
+#   pip install torch==2.1.1+cu118 torchvision==0.16.1+cu118 \
+#       --index-url https://download.pytorch.org/whl/cu118
+# numpy must be pinned below 2 for compatibility with torch 2.1.1
+numpy==1.26.4
+torch==2.1.1+cu118
+torchvision==0.16.1+cu118
+
+# Segmentation
+segmentation-models-pytorch==0.3.4
+albumentations==1.3.1
+torchmetrics==1.9.0
+
+# Geospatial / data
+rasterio==1.4.4
+gcsfs==2026.5.0
+pandas==2.3.3
+scipy==1.15.3
+scikit-image==0.25.2
+opencv-python-headless==4.13.0.92
+
+# Visualization
+matplotlib==3.10.9
+
+# Notebook
+ipykernel==7.2.0
+ipywidgets==8.1.8
+tqdm==4.67.3
