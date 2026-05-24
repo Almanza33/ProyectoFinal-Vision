@@ -1,0 +1,3 @@
+Coloca aqui el checkpoint entrenado: baseline_unet_resnet34.pt
+(es el archivo que guarda test.ipynb; un dict con la clave 'model_state').
+Sin este archivo la app arranca pero usa pesos aleatorios.
